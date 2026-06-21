@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07070b">
+  <meta name="description" content="Campanha premiada com participação online, comprovante pelo WhatsApp e consulta de números.">
+  <title>RifaPro | Campanha Premiada</title>
+  <style>
+    :root{
+      --bg:#07070b; --bg2:#101018; --card:#15151f; --card2:#1c1c29; --line:rgba(255,255,255,.10);
+      --text:#f8f8fb; --muted:#b7b7c5; --soft:#858596; --red:#e11d2e; --red2:#ff4558;
+      --green:#20c46b; --yellow:#f5c84b; --radius:22px; --shadow:0 18px 55px rgba(0,0,0,.42);
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 0 0,rgba(225,29,46,.24),transparent 32%),linear-gradient(140deg,var(--bg),var(--bg2) 55%,#07070b);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--text);min-height:100vh} a{color:inherit;text-decoration:none} button,input,textarea{font:inherit} .container{width:min(1120px,calc(100% - 28px));margin:auto}.top{position:sticky;top:0;z-index:20;background:rgba(7,7,11,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:11px;min-width:0}.brandMark{width:43px;height:43px;border-radius:15px;background:linear-gradient(135deg,var(--red),var(--red2));display:grid;place-items:center;font-weight:950;box-shadow:0 10px 30px rgba(225,29,46,.32)}.brand strong{display:block;line-height:1}.brand small{display:block;color:var(--muted);font-size:12px;margin-top:3px}.navLinks{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.navLinks a{padding:10px 12px;border-radius:999px;color:var(--muted);font-size:14px}.navLinks a:hover{background:rgba(255,255,255,.07);color:var(--text)}.hero{padding:58px 0 36px}.heroGrid{display:grid;grid-template-columns:1.07fr .93fr;gap:26px;align-items:center}.tag{display:inline-flex;align-items:center;gap:8px;color:#ffd3d8;background:rgba(225,29,46,.13);border:1px solid rgba(225,29,46,.26);border-radius:999px;padding:8px 11px;text-transform:uppercase;letter-spacing:.09em;font-size:11px;font-weight:900}.tag:before{content:"";width:8px;height:8px;border-radius:999px;background:var(--red2);box-shadow:0 0 0 5px rgba(225,29,46,.14)}h1{font-size:clamp(40px,8vw,76px);line-height:.94;margin:16px 0 14px;letter-spacing:-.055em}h2{font-size:clamp(26px,5vw,36px);line-height:1.03;margin:8px 0 12px;letter-spacing:-.035em}h3{margin:0 0 8px;font-size:18px}.lead,p{color:var(--muted);line-height:1.65}.lead{font-size:18px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.btn{border:0;border-radius:16px;min-height:50px;padding:13px 17px;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:900;color:white;background:linear-gradient(135deg,var(--red),var(--red2));box-shadow:0 14px 34px rgba(225,29,46,.24);cursor:pointer;transition:.15s transform,.15s opacity}.btn:active{transform:scale(.98)}.btn.ghost{background:rgba(255,255,255,.06);border:1px solid var(--line);box-shadow:none}.btn.full{width:100%}.card{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.035));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}.prizeCard{padding:16px}.prizeVisual{min-height:255px;border-radius:20px;border:1px solid var(--line);background:radial-gradient(circle at 20% 0,rgba(225,29,46,.28),transparent 34%),linear-gradient(135deg,rgba(255,255,255,.08),rgba(0,0,0,.14));display:grid;place-items:center;overflow:hidden}.prizeVisual span{font-size:92px;filter:drop-shadow(0 18px 24px rgba(0,0,0,.45))}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.metaItem,.summary{background:rgba(0,0,0,.24);border:1px solid var(--line);border-radius:17px;padding:13px}.metaItem small,.summary span{display:block;color:var(--soft);font-size:12px}.metaItem strong,.summary strong{display:block;margin-top:4px}.section{padding:44px 0}.section.alt{background:rgba(255,255,255,.025);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}.formGrid{display:grid;gap:13px;margin-top:16px}label{display:grid;gap:8px;color:#eeeeff;font-weight:800}.input{width:100%;border:1px solid var(--line);border-radius:15px;background:rgba(0,0,0,.28);color:var(--text);padding:14px 14px;outline:0;min-height:50px}.input::placeholder{color:#6f6f7f}.input:focus{border-color:rgba(255,255,255,.33);box-shadow:0 0 0 4px rgba(255,255,255,.06)}.summary{display:grid;grid-template-columns:1fr auto;gap:8px 14px;margin-top:16px}.steps{display:grid;gap:12px;margin-top:16px}.step{display:grid;grid-template-columns:40px 1fr;gap:2px 13px;border:1px solid var(--line);border-radius:18px;padding:15px;background:rgba(0,0,0,.16)}.step i{grid-row:1/3;width:40px;height:40px;border-radius:14px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:#ffd3d8;font-style:normal;font-weight:950}.step p{margin:0}.resultBox{min-height:112px;border:1px dashed var(--line);border-radius:18px;padding:17px;color:var(--muted);line-height:1.7;background:rgba(0,0,0,.18)}.pill{display:inline-flex;align-items:center;justify-content:center;margin:5px 6px 5px 0;min-width:45px;padding:9px 12px;border-radius:999px;background:rgba(225,29,46,.16);border:1px solid rgba(225,29,46,.38);color:#ffd4d9;font-weight:950}.pill.win{background:linear-gradient(135deg,var(--red),var(--red2));color:white}.rules{white-space:pre-wrap;word-break:break-word;color:var(--muted);line-height:1.65;font-family:inherit;margin:0}.footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted)}.footerIn{display:flex;align-items:center;justify-content:space-between;gap:14px}.linkBtn{border:0;background:transparent;color:var(--muted);cursor:pointer;padding:8px 0}.linkBtn:hover{color:var(--text)}.toast{position:fixed;left:14px;right:14px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:80;border:1px solid var(--line);border-radius:16px;background:#161620;color:var(--text);padding:14px 15px;box-shadow:var(--shadow);opacity:0;transform:translateY(16px);pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:translateY(0)}.mobileBar{display:none}.modal{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.72);display:none;place-items:center;padding:18px}.modal.show{display:grid}.modal .card{width:min(440px,100%)}
+    @media(max-width:850px){.container{width:min(100% - 24px,1120px)}.nav{align-items:flex-start;flex-direction:column;padding:12px 0}.navLinks{width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:3px}.navLinks a{white-space:nowrap;background:rgba(255,255,255,.045)}.hero{padding:34px 0 24px}.heroGrid,.split{grid-template-columns:1fr}.lead{font-size:16px}.actions .btn{width:100%}.meta{grid-template-columns:1fr}.card{padding:18px;border-radius:20px}.prizeVisual{min-height:210px}.summary{grid-template-columns:1fr}.section{padding:32px 0}.footer{padding-bottom:86px}.footerIn{display:grid}.mobileBar{position:fixed;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:45;background:rgba(9,9,14,.9);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:20px;padding:8px;box-shadow:0 16px 45px rgba(0,0,0,.45)}.mobileBar a{min-height:44px;border-radius:14px;display:grid;place-items:center;text-align:center;background:rgba(255,255,255,.06);font-weight:900;font-size:13px}.mobileBar a:first-child{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff}}
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="container nav">
+    <a class="brand" href="#inicio"><span class="brandMark">RP</span><span><strong>RifaPro</strong><small>Campanha premiada</small></span></a>
+    <nav class="navLinks" aria-label="Navegação"><a href="#participar">Participar</a><a href="#meus-numeros">Meus números</a><a href="#resultado">Resultado</a><a href="#regulamento">Regulamento</a></nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div class="container heroGrid">
+      <div>
+        <span class="tag">Campanha ativa</span>
+        <h1 id="campaignTitle">Campanha Premiada</h1>
+        <p class="lead" id="campaignSubtitle">Participe, envie seu comprovante pelo WhatsApp e acompanhe seus números pelo site.</p>
+        <div class="actions"><a class="btn" href="#participar">Participar agora</a><a class="btn ghost" href="#meus-numeros">Consultar meus números</a></div>
+      </div>
+      <aside class="card prizeCard">
+        <div class="prizeVisual" aria-label="Imagem do prêmio"><span id="prizeEmoji">🏆</span></div>
+        <div class="meta">
+          <div class="metaItem"><small>Prêmio</small><strong id="prizeName">Prêmio especial</strong></div>
+          <div class="metaItem"><small>Valor</small><strong id="priceTop">R$ 10,00</strong></div>
+          <div class="metaItem"><small>Data</small><strong id="dateTop">A definir</strong></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="participar">
+    <div class="container split">
+      <form class="card" id="orderForm">
+        <span class="tag">Participação</span>
+        <h2>Entrar na campanha</h2>
+        <p>Preencha seus dados, escolha a quantidade e envie o comprovante pelo WhatsApp. Seus números ficam disponíveis para consulta após a conferência.</p>
+        <div class="summary"><span>Valor por número</span><strong id="priceForm">R$ 10,00</strong><span>Total</span><strong id="totalValue">R$ 10,00</strong></div>
+        <div class="formGrid">
+          <label>Nome completo<input class="input" id="buyerName" required maxlength="120" placeholder="Seu nome"></label>
+          <label>WhatsApp<input class="input" id="buyerPhone" required maxlength="20" inputmode="tel" placeholder="DDD + número"></label>
+          <label>Quantidade de números<input class="input" id="quantity" required type="number" min="1" max="100" value="1"></label>
+        </div>
+        <br><button class="btn full" type="submit">Enviar comprovante</button>
+        <p>Use o mesmo WhatsApp informado aqui para consultar seus números.</p>
+      </form>
+      <div class="card">
+        <span class="tag">Etapas</span>
+        <h2>Como funciona</h2>
+        <div class="steps">
+          <div class="step"><i>1</i><strong>Informe seus dados</strong><p>Preencha nome, WhatsApp e quantidade desejada.</p></div>
+          <div class="step"><i>2</i><strong>Envie o comprovante</strong><p>A mensagem abre no WhatsApp do responsável pela campanha.</p></div>
+          <div class="step"><i>3</i><strong>Consulte seus números</strong><p>Depois da conferência, seus números aparecem na consulta.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="meus-numeros">
+    <div class="container split">
+      <form class="card" id="lookupForm">
+        <span class="tag">Consulta</span>
+        <h2>Meus números</h2>
+        <p>Digite o WhatsApp usado na participação.</p>
+        <label>WhatsApp<input class="input" id="lookupPhone" required maxlength="20" inputmode="tel" placeholder="DDD + número"></label>
+        <br><button class="btn" type="submit">Consultar</button>
+      </form>
+      <div class="card"><h2>Resultado da consulta</h2><div class="resultBox" id="lookupResult">Seus números aparecerão aqui depois da conferência.</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="resultado">
+    <div class="container split">
+      <div class="card"><span class="tag">Resultado</span><h2>Ganhador</h2><div class="resultBox" id="winnerBox">O resultado ainda não foi publicado.</div></div>
+      <div class="card"><span class="tag">Campanha</span><h2>Sobre</h2><p id="campaignDescription">Campanha premiada com participação por comprovante e acompanhamento online.</p></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="regulamento">
+    <div class="container"><div class="card"><span class="tag">Informações</span><h2>Regulamento</h2><pre class="rules" id="rulesText">Consulte o responsável para informações completas da campanha.</pre></div></div>
+  </section>
+</main>
+<footer class="footer"><div class="container footerIn"><span>RifaPro — campanha premiada.</span><button class="linkBtn" id="openAdmin" type="button">Entrar como responsável</button></div></footer>
+<nav class="mobileBar" aria-label="Atalhos"><a href="#participar">Participar</a><a href="#meus-numeros">Meus números</a><a href="#resultado">Resultado</a></nav>
+<div class="modal" id="loginModal"><form class="card" id="adminLogin"><h2>Área do responsável</h2><p>Acesso reservado à organização da campanha.</p><label>Senha<input class="input" id="adminPassword" type="password" required autocomplete="current-password" placeholder="Senha"></label><br><button class="btn full" type="submit">Entrar</button><br><br><button class="linkBtn" id="closeAdmin" type="button">Fechar</button></form></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  const KEY='rifapro-mobile-final-v1';
+  const $=s=>document.querySelector(s);
+  const digits=v=>String(v||'').replace(/\D/g,'');
+  const money=v=>Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+  const dateBR=v=>v?new Date(v+'T00:00:00').toLocaleDateString('pt-BR'):'A definir';
+  const now=()=>new Date().toLocaleString('pt-BR');
+  function base(){const tickets=[];for(let n=0;n<=100;n++)tickets.push({n,status:'available',name:'',phone:'',notes:''});return{config:{title:'Campanha Premiada',subtitle:'Participe, envie seu comprovante pelo WhatsApp e acompanhe seus números pelo site.',prize:'Prêmio especial',emoji:'🏆',price:10,drawDate:'',description:'Campanha premiada com participação por comprovante e acompanhamento online.',rules:'1. A participação é vinculada aos dados informados no cadastro.\n2. Os números aparecem na consulta depois da conferência do comprovante.\n3. O resultado será publicado nesta página.\n4. Em caso de dúvida, fale com o responsável pelo WhatsApp.',receiptWhatsapp:'5500000000000',adminPassword:'1234'},orders:[],tickets,winner:null,logs:[{date:now(),type:'sistema',message:'Site iniciado.'}]}}
+  function load(){try{return JSON.parse(localStorage.getItem(KEY))||save(base())}catch(e){return save(base())}}
+  function save(data){localStorage.setItem(KEY,JSON.stringify(data));return data}
+  function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('show'),2600)}
+  function log(type,message,extra=''){const data=load();data.logs.unshift({date:now(),type,message,extra:String(extra).slice(0,700)});data.logs=data.logs.slice(0,100);save(data)}
+  window.onerror=(m,u,l,c)=>log('erro',String(m),`${u}:${l}:${c}`);
+  window.onunhandledrejection=e=>log('falha','Erro de processamento',e.reason?.message||String(e.reason||''));
+  function apply(){const data=load(),c=data.config;$('#campaignTitle').textContent=c.title;$('#campaignSubtitle').textContent=c.subtitle;$('#prizeName').textContent=c.prize;$('#prizeEmoji').textContent=c.emoji||'🏆';$('#priceTop').textContent=money(c.price);$('#priceForm').textContent=money(c.price);$('#dateTop').textContent=dateBR(c.drawDate);$('#campaignDescription').textContent=c.description;$('#rulesText').textContent=c.rules;calc();renderWinner()}
+  function calc(){const data=load();const q=Math.max(1,Number($('#quantity').value||1));$('#totalValue').textContent=money(q*data.config.price)}
+  $('#quantity').addEventListener('input',calc);
+  $('#orderForm').addEventListener('submit',e=>{e.preventDefault();const data=load(),c=data.config;const name=$('#buyerName').value.trim();const phone=digits($('#buyerPhone').value);const quantity=Math.max(1,Number($('#quantity').value||1));if(name.length<3)return toast('Informe seu nome completo.');if(phone.length<10)return toast('Informe um WhatsApp válido.');const available=data.tickets.filter(t=>t.status==='available').length;if(quantity>available)return toast('Quantidade indisponível no momento.');const order={id:'PED'+Date.now().toString(36).toUpperCase(),name,phone,quantity,total:quantity*c.price,status:'pending',numbers:[],createdAt:now()};data.orders.unshift(order);data.logs.unshift({date:now(),type:'pedido',message:`Pedido recebido ${order.id}`,extra:`${name} • ${phone} • ${quantity} número(s)`});save(data);const msg=`Olá, quero participar da campanha ${c.title}.\n\nNome: ${name}\nWhatsApp: ${phone}\nQuantidade: ${quantity}\nTotal: ${money(order.total)}\nPedido: ${order.id}\n\nVou enviar o comprovante.`;window.open('https://wa.me/'+digits(c.receiptWhatsapp)+'?text='+encodeURIComponent(msg),'_blank','noopener');e.target.reset();$('#quantity').value=1;calc();toast('Pedido registrado. Envie o comprovante no WhatsApp.');});
+  $('#lookupForm').addEventListener('submit',e=>{e.preventDefault();const data=load();const phone=digits($('#lookupPhone').value);const orders=data.orders.filter(o=>digits(o.phone)===phone);const tickets=data.tickets.filter(t=>digits(t.phone)===phone&&t.status!=='available');let html='';const confirmed=tickets.filter(t=>['paid','winner'].includes(t.status));if(confirmed.length){html+='<p><strong>Números confirmados:</strong></p>'+confirmed.sort((a,b)=>a.n-b.n).map(t=>`<span class="pill ${t.status==='winner'?'win':''}">${String(t.n).padStart(2,'0')}</span>`).join('')}
+    const pending=orders.filter(o=>o.status==='pending').length;if(pending)html+=`<p>${pending} pedido(s) aguardando conferência.</p>`;if(!html)html='Nenhuma participação encontrada para este WhatsApp.';$('#lookupResult').innerHTML=html;});
+  function renderWinner(){const data=load();if(!data.winner){$('#winnerBox').textContent='O resultado ainda não foi publicado.';return}$('#winnerBox').innerHTML=`<strong>Número vencedor: ${String(data.winner.number).padStart(2,'0')}</strong><br>${data.winner.name||'Ganhador'}<br><small>Publicado em ${data.winner.date}</small>`}
+  $('#openAdmin').onclick=()=>$('#loginModal').classList.add('show');$('#closeAdmin').onclick=()=>$('#loginModal').classList.remove('show');
+  $('#adminLogin').addEventListener('submit',e=>{e.preventDefault();const data=load();if($('#adminPassword').value!==data.config.adminPassword){log('acesso','Senha incorreta na área do responsável');return toast('Senha incorreta.')}sessionStorage.setItem('rifapro-admin','ok');location.href='admin.html'});
+  apply();
+})();
+</script>
+</body>
+</html>
